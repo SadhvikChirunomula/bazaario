@@ -1,0 +1,383 @@
+{
+    "success": true,
+    "data": {
+        "metaData": {
+            "totalCount": 4,
+            "sections": [
+                {
+                    "sectionId": 0,
+                    "totalCount": 4,
+                    "privateCount": 4,
+                    "sectionInvCount": 4
+                }
+            ],
+            "busLogoBaseUrl": "https://origin-st.redbus.in/buslogos/country/",
+            "busImageBaseUrl": "https://s3-ap-southeast-1.amazonaws.com/rbplus/BusImage/Domestic",
+            "invFilterType": 1,
+            "busEnRouteCount": 3,
+            "primoCount": 1,
+            "nudge": {
+                "imgURL": "Nudges/social",
+                "title": "110 seats sold on this route in the last 24 hours",
+                "bgColor": "#fff5e5",
+                "borderColor": "#ff9f1c"
+            },
+            "isLMBFilterApplied": true
+        },
+        "inventories": [
+            {
+                "operatorId": 26626,
+                "travelsName": "VSR Tours and Travels",
+                "routeId": 31797638,
+                "busType": "A/C Sleeper (2+1)",
+                "busTypeId": 54,
+                "serviceName": "Hyderabad - Manguru",
+                "serviceId": "15",
+                "cancellationPolicy": "0:12:100:0;12:24:50:0;24:-1:30:0",
+                "isPartialCancellationAllowed": true,
+                "operatorLogoPath": "ind/logo/26626.png",
+                "totalRatings": 4.3,
+                "numberOfReviews": "196",
+                "departureTime": "2025-05-09 22:25:00",
+                "arrivalTime": "2025-05-10 05:50:00",
+                "journeyDurationMin": 445,
+                "firstBpTime": "2025-05-09 23:00:00",
+                "standardBpName": "Kukatpally",
+                "standardBpIdentifier": 66030,
+                "standardDpName": "Bhadrachalam",
+                "isSeatLayoutAvailable": true,
+                "fareList": [
+                    999
+                ],
+                "busScore": 2.75,
+                "perzScore": 2.75,
+                "isLiveTrackingAvailable": true,
+                "isMticketEnabled": true,
+                "isAc": true,
+                "isSleeper": true,
+                "maxSeatsPerTransaction": 6,
+                "availableSeats": 1,
+                "totalSeats": 34,
+                "amenities": [
+                    10,
+                    26,
+                    4,
+                    5,
+                    7,
+                    86,
+                    9,
+                    19
+                ],
+                "operatorOfferCampaign": {
+                    "Vld": true,
+                    "RTVld": true,
+                    "CmpgList": [
+                        {
+                            "RouteId": 31797638,
+                            "CampaignCode": "ALLC_4cf96b85",
+                            "CampaignDesc": "Get 10 % Extra OFF",
+                            "CampaignNote": "[\"Minimum ticket fare : INR 1600\",\"Maximum discount limit : INR 99999\"]",
+                            "CampaignType": "PERCENT",
+                            "DiscountUnit": 10,
+                            "DiscountType": 2,
+                            "maxDiscount": 10,
+                            "DiscountedPrices": [
+                                999
+                            ],
+                            "OriginalPrices": [
+                                999
+                            ],
+                            "RTODiscountType": 1,
+                            "RTOOffer": "10",
+                            "RTOType": 1,
+                            "RTODays": 15,
+                            "icon": "FEMALE",
+                            "IsFemaleOffer": true,
+                            "oType": 1,
+                            "cmgIcon": "FEMALE",
+                            "displayText": "Women",
+                            "dealType": "FEMALE",
+                            "redDealInfo": {
+                                "1": {
+                                    "DiscountUnit": 10,
+                                    "DiscountType": 2
+                                }
+                            }
+                        }
+                    ]
+                },
+                "campaignType": [
+                    7,
+                    555,
+                    15
+                ],
+                "vendorCurrency": "INR",
+                "programList": [
+                    3
+                ],
+                "busEnRoute": true,
+                "availableUpperSeats": 1,
+                "bpCount": 32,
+                "dpCount": 5,
+                "eligibleNudges": "{0:{login:0}, 1:{sProof:5}}",
+                "busVehicleNumber": "TS08UL1992",
+                "boReqParams": [
+                    {
+                        "reschedulePolicy": "",
+                        "serviceStartTime": "2025-05-09 23:00:00"
+                    }
+                ],
+                "busImageCount": 4,
+                "isLMBAllowed": true,
+                "rs555": true,
+                "locationSearchParams": {
+                    "isExactMatch": true,
+                    "sourceBp": "Kukatpally",
+                    "destinationDp": "Bhadrachalam",
+                    "bpId": 23954790,
+                    "dpId": 25147553
+                },
+                "serviceNotes": {
+                    "PETS": "1",
+                    "CHILD": "1",
+                    "LUG": "2,1"
+                },
+                "viaBp": "KUKATPALLY"
+            },
+            {
+                "operatorId": 20397,
+                "travelsName": "Morning Star Travels",
+                "routeId": 38204926,
+                "busType": "A/C Sleeper (2+1)",
+                "busTypeId": 54,
+                "serviceName": "Hyderabad To Bhadrachalam",
+                "serviceId": "1217",
+                "cancellationPolicy": "0:12:100:0;12:24:50:0;24:-1:25:0",
+                "isPartialCancellationAllowed": true,
+                "operatorLogoPath": "ind/logo/20397.png",
+                "totalRatings": 3.8,
+                "numberOfReviews": "4",
+                "departureTime": "2025-05-09 22:50:00",
+                "arrivalTime": "2025-05-10 05:10:00",
+                "journeyDurationMin": 380,
+                "firstBpTime": "2025-05-09 23:20:00",
+                "standardBpName": "Kukatpally",
+                "standardBpIdentifier": 66030,
+                "standardDpName": "Morampalli Banjara",
+                "standardDpIdentifier": 301541,
+                "isSeatLayoutAvailable": true,
+                "fareList": [
+                    1290
+                ],
+                "busScore": 1.33,
+                "perzScore": 1.33,
+                "isLiveTrackingAvailable": true,
+                "isMticketEnabled": true,
+                "isAc": true,
+                "isSleeper": true,
+                "maxSeatsPerTransaction": 6,
+                "availableSeats": 1,
+                "totalSeats": 30,
+                "amenities": [
+                    10,
+                    5,
+                    7,
+                    91,
+                    19
+                ],
+                "vendorCurrency": "INR",
+                "availableAisleSeats": 1,
+                "availableLowerSeats": 1,
+                "bpCount": 31,
+                "dpCount": 5,
+                "busVehicleNumber": "AP39TH3343",
+                "boReqParams": [
+                    {
+                        "reschedulePolicy": "",
+                        "serviceStartTime": "2025-05-09 23:20:00"
+                    }
+                ],
+                "busImageCount": 5,
+                "isLMBAllowed": true,
+                "locationSearchParams": {
+                    "isExactMatch": true,
+                    "sourceBp": "Kukatpally",
+                    "destinationDp": "Others",
+                    "bpId": 21808002,
+                    "dpId": 21816267
+                },
+                "serviceNotes": {
+                    "PETS": "1",
+                    "CHILD": "1",
+                    "LUG": "2,1"
+                },
+                "viaBp": "KUKATPALLY"
+            },
+            {
+                "operatorId": 21967,
+                "travelsName": "Manish travels",
+                "routeId": 24510000,
+                "busType": "NON A/C Seater (2+2)",
+                "busTypeId": 99,
+                "serviceName": "MANASH TRAVELS ",
+                "serviceId": "32",
+                "cancellationPolicy": "0:-1:100:0",
+                "isPartialCancellationAllowed": true,
+                "operatorLogoPath": "ind/logo/21967.png",
+                "totalRatings": 3.9,
+                "numberOfReviews": "0",
+                "departureTime": "2025-05-09 22:15:00",
+                "arrivalTime": "2025-05-10 06:00:00",
+                "journeyDurationMin": 465,
+                "firstBpTime": "2025-05-09 22:00:00",
+                "standardBpName": "Kukatpally",
+                "standardBpIdentifier": 66030,
+                "standardDpName": "Bus Stand",
+                "standardDpIdentifier": 72535,
+                "isSeatLayoutAvailable": true,
+                "fareList": [
+                    690
+                ],
+                "busScore": 0.57,
+                "perzScore": 0.57,
+                "isMticketEnabled": true,
+                "isNonAc": true,
+                "isSeater": true,
+                "maxSeatsPerTransaction": 6,
+                "availableSeats": 3,
+                "totalSeats": 40,
+                "vendorCurrency": "INR",
+                "availableAisleSeats": 3,
+                "availableLowerSeats": 3,
+                "bpCount": 14,
+                "dpCount": 1,
+                "boReqParams": [
+                    {
+                        "reschedulePolicy": "",
+                        "serviceStartTime": "2025-05-09 22:00:00"
+                    }
+                ],
+                "busImageCount": -1,
+                "isLMBAllowed": true,
+                "locationSearchParams": {
+                    "isExactMatch": true,
+                    "sourceBp": "Kukatpally",
+                    "destinationDp": "Bus Stand",
+                    "bpId": 23056467,
+                    "dpId": 23872277
+                },
+                "viaBp": "KUKATPALLY"
+            },
+            {
+                "operatorId": 15840,
+                "travelsName": "Sri KVR Travels",
+                "routeId": 39791552,
+                "busType": "A/C Seater / Sleeper (2+1)",
+                "busTypeId": 4,
+                "serviceName": "HYDERABAD TO BHADRACHALAM",
+                "serviceId": "1557",
+                "cancellationPolicy": "0:8:100:0;8:12:50:0;12:24:30:0;24:72:10:0;72:168:10:0;168:-1:10:0",
+                "isPartialCancellationAllowed": true,
+                "operatorLogoPath": "ind/logo/15840.png",
+                "totalRatings": -1,
+                "numberOfReviews": "",
+                "departureTime": "2025-05-09 22:30:00",
+                "arrivalTime": "2025-05-10 05:00:00",
+                "journeyDurationMin": 390,
+                "firstBpTime": "2025-05-09 21:30:00",
+                "standardBpName": "Kukatpally",
+                "standardBpIdentifier": 66030,
+                "standardDpName": "Bus Stand",
+                "standardDpIdentifier": 72535,
+                "isSeatLayoutAvailable": true,
+                "fareList": [
+                    1599,
+                    2190,
+                    2290,
+                    2390,
+                    2490
+                ],
+                "busScore": -1,
+                "perzScore": -1,
+                "isMticketEnabled": true,
+                "isAc": true,
+                "isSeater": true,
+                "isSleeper": true,
+                "maxSeatsPerTransaction": 6,
+                "availableWindowSeats": 13,
+                "availableSingleSeats": 4,
+                "availableSeats": 26,
+                "totalSeats": 51,
+                "amenities": [
+                    5,
+                    7
+                ],
+                "rescheduleTime": 8,
+                "vendorCurrency": "INR",
+                "availableAisleSeats": 11,
+                "availableUpperSeats": 9,
+                "availableLowerSeats": 17,
+                "bpCount": 30,
+                "dpCount": 1,
+                "manualReschedulePolicy": "8:-1:0:0",
+                "boReqParams": [
+                    {
+                        "isAvailReschedule": true,
+                        "reschedulePolicy": "8:-1:0:0",
+                        "serviceStartTime": "2025-05-09 21:30:00"
+                    }
+                ],
+                "busImageCount": 5,
+                "isLMBAllowed": true,
+                "locationSearchParams": {
+                    "isExactMatch": true,
+                    "sourceBp": "Kukatpally",
+                    "destinationDp": "Bus Stand",
+                    "bpId": 1766642,
+                    "dpId": 22926350
+                },
+                "serviceNotes": {
+                    "CHILD": "1",
+                    "LUG": "2,1"
+                },
+                "viaBp": "KUKATPALLY"
+            }
+        ],
+        "parentSrcCityName": "Hyderabad",
+        "parentDstCityName": "Bhadrachalam",
+        "parentSrcCityId": 124,
+        "parentDstCityId": 517,
+        "srcCountry": "INDIA",
+        "dstCountry": "INDIA",
+        "sortLabel": "BUSSCORE",
+        "uuidAtSRP": "08509f6a70c4406ea3f87ca8a8f3b164",
+        "IsFilterApplied": true,
+        "busCounts": {
+            "total": 6,
+            "privateCount": 6
+        },
+        "trainData": {
+            "sourceStationCode": null,
+            "avlTrnCount": 0,
+            "dstStationName": null,
+            "errorMessage": "Route is not whitelisted",
+            "dstStationCode": null,
+            "sourceStationName": null
+        },
+        "srcRegion": "Andhra Pradesh",
+        "desRegion": "Andhra Pradesh"
+    },
+    "statusCode": 200,
+    "headers": {
+        "date": "Fri, 09 May 2025 15:48:56 GMT",
+        "content-type": "application/json",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "server": "nginx",
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block",
+        "strict-transport-security": "max-age=31536000",
+        "x-content-type-options": "nosniff",
+        "access-control-allow-origin": "*"
+    }
+}
