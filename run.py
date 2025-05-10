@@ -1,5 +1,5 @@
 # pip3 install -r requirements.txt
-# run.py
+# python3 run.py
 
 import uvicorn
 
