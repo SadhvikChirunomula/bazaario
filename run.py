@@ -1,3 +1,6 @@
+# pip3 install -r requirements.txt
+# run.py
+
 import uvicorn
 
 if __name__ == "__main__":
