@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>API Health Check Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f7f7f7;
+        margin: 0;
+        padding: 20px;
+      }
+      .container {
+        max-width: 600px;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 20px;
+      }
+      h1 {
+        text-align: center;
+      }
+      /* New styles for colorful tiles */
+      .tiles-container {
+         display: grid;
+         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+         gap: 20px;
+         margin-top: 20px;
+      }
+      .tile {
+         background: #ffffff;
+         padding: 15px;
+         border-radius: 8px;
+         box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+         text-align: center;
+      }
+      .tile h3 {
+         margin: 0;
+         font-size: 1.2em;
+         color: #333;
+      }
+      .tile p {
+         margin: 10px 0 0;
+         font-size: 1em;
+         color: #555;
+         white-space: pre-wrap;
+         word-break: break-word;
+      }
+      .error {
+        color: red;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>API Health Check</h1>
+      <button id="checkBtn">Check Health</button>
+      <div id="result"></div>
+    </div>
+    <script>
+      document.getElementById("checkBtn").addEventListener("click", function() {
+        fetch("http://localhost:8000/api/healthCheck")
+          .then(response => {
+            if (!response.ok) {
+              throw new Error("Network response was not OK");
+            }
+            return response.json();
+          })
+          .then(data => {
+            // Create a container for colorful tiles
+            const container = document.createElement('div');
+            container.className = 'tiles-container';
+            // For each key in the JSON response, create a tile
+            for (const key in data) {
+              if (data.hasOwnProperty(key)) {
+                const tile = document.createElement('div');
+                tile.className = 'tile';
+                // Set a random background color for each tile from a predefined palette
+                const colors = ['#FFC107', '#4CAF50', '#2196F3', '#E91E63', '#9C27B0', '#FF5722'];
+                tile.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+                
+                const title = document.createElement('h3');
+                title.textContent = key;
+                const value = document.createElement('p');
+                value.textContent = JSON.stringify(data[key], null, 2);
+                
+                tile.appendChild(title);
+                tile.appendChild(value);
+                container.appendChild(tile);
+              }
+            }
+            const resultDiv = document.getElementById("result");
+            resultDiv.innerHTML = '';
+            resultDiv.appendChild(container);
+          })
+          .catch(error => {
+            document.getElementById("result").innerHTML = "<p class='error'>Error: " + error.message + "</p>";
+          });
+      });
+    </script>
+  </body>
+</html>
